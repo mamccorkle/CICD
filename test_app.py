@@ -7,7 +7,6 @@ import re
 
 
 
-
 def test_get_valid_name():
     while True:
         # Get the users name from their input:
