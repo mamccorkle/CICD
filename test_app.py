@@ -1,9 +1,19 @@
 import re
 
-def get_valid_name():
+
+
+
+
+
+
+
+
+def test_get_valid_name():
     while True:
         # Get the users name from their input:
         name = input("What is your name? ")
+
+
 
         # Check that letters and spaces are what was entered, and it must not be empty:
         if re.fullmatch(r"[A-Za-z ]+", name.strip()):
